@@ -5,7 +5,7 @@ from ragatouille import RAGPretrainedModel
 INDEX_NAME = "Me"
 INDEX_DIR = Path(".ragatouille/colbert/indexes") / INDEX_NAME
 TOP_K = 20
-SCORE_THRESHOLD = 20
+SCORE_THRESHOLD = 15
 
 # High-signal, semantically rich mining prompts
 SIGNAL_QUERIES = [
