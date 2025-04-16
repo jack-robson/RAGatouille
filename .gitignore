@@ -133,3 +133,4 @@ local/
 
 .devcontainer/
 /data
+results.json
